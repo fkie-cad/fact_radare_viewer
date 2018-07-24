@@ -1,0 +1,10 @@
+*~
+*.pyc
+.cache
+.coverage*
+.idea
+.project
+.pydevproject
+.pytest_cache
+.settings/
+__pycache__
