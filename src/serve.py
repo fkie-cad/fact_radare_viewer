@@ -23,7 +23,7 @@ def _setup_logging():
 def main():
     _setup_logging()
     try:
-        APP.run(host=FLASK_HOST, port=FLASK_PORT)
+        APP.run(host=FLASK_HOST, port=FLASK_PORT, ssl_context='adhoc')
     except KeyboardInterrupt:
         logging.info('Bye, bye ..')
 
